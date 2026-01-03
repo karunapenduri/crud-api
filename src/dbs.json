@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "seema",
+      "place": "mysore",
+      "phone": "123456"
+    },
+    {
+      "id": "2",
+      "name": "arya",
+      "place": "karnataka",
+      "phone": "987654322"
+    },
+    {
+      "id": "10",
+      "name": "greeshma",
+      "place": "kashmir",
+      "phone": "7335388255"
+    },
+    {
+      "id": "26",
+      "name": "uday",
+      "place": "harayana",
+      "phone": "987654322"
+    }
+  ]
+}
