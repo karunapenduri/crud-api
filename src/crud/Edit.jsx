@@ -3,7 +3,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 
 function Edit() {
     const {studentid} = useParams();
-    // const [studentdata, setStudentdata]=useState({})
+   
     const [id, setId]= useState("")
     const [name, setName]= useState("")
     const [place, setPlace]= useState("")
@@ -14,6 +14,7 @@ function Edit() {
         fetch("http://localhost:8000/students/"+studentid)
          .then((res)=>res.json())
          .then((data)=>{
+            
             setId(data.id)
             setName(data.name)
             setPlace(data.place)

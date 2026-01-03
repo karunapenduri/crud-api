@@ -12,7 +12,7 @@ function View() {
          .catch((err)=>console.log(err.message))
 
 
-    },[])
+    },[studentid])
    
     
     return (
@@ -25,7 +25,8 @@ function View() {
         <p><strong>Place:</strong>{studentdata.place}</p>
         <p><strong>Phone:</strong>{studentdata.phone}</p>
         <Link to="/" className='btn btn-success'>Back</Link>
-       </div>}
+       </div>
+       }
        </div> 
     )
     

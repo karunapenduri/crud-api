@@ -2,27 +2,27 @@
   "students": [
     {
       "id": "1",
-      "name": "seema",
-      "place": "mysore",
-      "phone": "123456"
-    },
-    {
-      "id": "2",
       "name": "arya",
-      "place": "karnataka",
+      "place": "mysore",
       "phone": "987654322"
     },
     {
-      "id": "10",
+      "id": "26",
       "name": "greeshma",
       "place": "kashmir",
-      "phone": "7335388255"
+      "phone": "873553562755"
     },
     {
       "id": "26",
       "name": "uday",
       "place": "harayana",
       "phone": "987654322"
+    },
+    {
+      "id": "12",
+      "name": "ravi",
+      "place": "kashmir",
+      "phone": "8907533252"
     }
   ]
 }

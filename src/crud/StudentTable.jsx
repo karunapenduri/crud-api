@@ -32,7 +32,8 @@ function StudentTable() {
     fetch('http://localhost:8000/students')
     .then(res=>res.json())
     .then((data)=>{
-      setStudents((data))
+      setStudents(data)
+      
     })
     .catch((err)=>{
       
@@ -60,7 +61,7 @@ function StudentTable() {
               </thead>
               <tbody>
                 {
-                  students && students.map((item,index)=>(
+                 students && students.map((item,index)=>(
 
                   <tr key={item.id}>
                   <td>{index+1}</td>
