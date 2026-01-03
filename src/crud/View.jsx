@@ -19,7 +19,7 @@ function View() {
         <div>
        <h2>Student Details</h2>
        {
-         studentdata && <div className='details'>
+         studentdata && <div className="border border-primary " style={{width:"150px", height:"150px"}}>
         <p><strong>ID:</strong>{studentdata.id}</p>
         <p><strong>Name:</strong>{studentdata.name}</p>
         <p><strong>Place:</strong>{studentdata.place}</p>
